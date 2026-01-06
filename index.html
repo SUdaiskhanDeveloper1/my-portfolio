@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sudais khan - Web Developer</title>
     <!-- <link rel="icon" href="favicon.png" type="image/png" class="favicon"> -->
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
 
     <header>
         <div class="logo">Sudais khan</div>
         <nav class="desktop-nav">
-            <a href="#home" class="active">Home</a>
+            <a href="#home">Home</a>
             <a href="#projects">Projects</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
-            
+
             <a href="#contact">Contact</a>
-            <a href="Sudais-Khan-CV.pdf" target="_blank" class="btn-cv">My CV</a> 
+            <a href="Sudais-Khan-CV.pdf" target="_blank" class="btn-cv">My CV</a>
         </nav>
     </header>
 
@@ -30,27 +33,32 @@
                 <div class="circuit-graphic">
                     </div>
             </div> -->
-            
-            <div class="text-content">
-                <p>Hello, I'm</p>
-                <h1>Sudais khan</h1>
-                <h2 class="neon-text" id="dynamic-title"></h2>
-                
-                <p>A Computer Science graduate and aspiring Web Developer. I am always eager to explore new opportunities.</p>
-                
-                <div class="social-links">
-                    
-                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    <!-- <a href="#projects" class="btn-outline">View My Work</a> -->
-                </div>
 
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn-outline">View My Work</a>
-                    <!-- <a href="contact" class="btn-primary">Hire Me</a> -->
-                </div>
+        <div class="text-content">
+            <p>Hello, I'm</p>
+            <h1>Sudais khan</h1>
+            <h2 class="neon-text" id="dynamic-title"></h2>
+
+            <p>A Computer Science graduate and aspiring Web Developer. I am always eager to explore new opportunities.
+            </p>
+
+            <div class="social-links">
+
+                <a href="https://www.linkedin.com/in/sudaiskhan733/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/SUdaiskhanDeveloper1" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://wa.me/923153633503" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <!-- <a href="#projects" class="btn-outline">View My Work</a> -->
             </div>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-outline">View My Work</a>
+                <!-- <a href="contact" class="btn-primary">Hire Me</a> -->
+            </div>
+        </div>
         <!-- </div> -->
     </section>
 
@@ -58,50 +66,100 @@
         <h2 class="section-title">My <span class="neon-text">Projects</span></h2>
         <div class="projects-grid">
             <div class="project-card">
-                <i class="fa-solid fa-gem project-icon"></i>
-                <h3>Sunarify - Jewelry Platform</h3>
-                <p>Built an online platform for goldsmiths to sell jewelry. Tech stack: HTML, CSS, JS, PHP, SQL.</p>
-                <a href="#" target="_blank" class="visit-live">Visit Live <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1607083206968-13611e3d76db?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="Jewelry Platform">
+                </div>
+                <div class="project-content">
+                    <h3>Laptop Management System</h3>
+                    <p>Built an online platform for managing laptop sales and purchases.</p>
+                    <span class="visit-live">Tech stack </span>: React, Firebase, CSS.
+                    <br>
+                    <a href="https://csms-pi.vercel.app" target="_blank" class="visit-live">Visit Live <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="Portfolio Website">
+                </div>
+                <div class="project-content">
+                    <h3>Portfolio Website</h3>
+                    <p>Designed and developed a responsive personal portfolio website.</p>
+                    <span class="visit-live">Tech stack </span>: React, Firebase, CSS.
+                    <br>
+
+                    <a href="https://myportifolio-sudais.vercel.app/" target="_blank" class="visit-live">Visit Live <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
             </div>
             <div class="project-card">
-                <i class="fa-solid fa-user-tie project-icon"></i>
-                <h3>Portfolio Website</h3>
-                <p>Designed a responsive personal portfolio. Tech stack: HTML, CSS, Bootstrap, JS.</p>
-                <a href="#" target="_blank" class="visit-live">Visit Live <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="WordPress Blog">
+                </div>
+                <div class="project-content">
+                    <h3>Online Shoes Store</h3>
+                    <p>Developed a responsive e-commerce website for online shoe sales.</p>
+                    <span class="visit-live">Tech stack </span>: React, Firebase, CSS.
+                    <br>
+                    <a href="https://online-shoes-store-omega.vercel.app/" target="_blank" class="visit-live">Visit Live
+                        <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
             </div>
+
             <div class="project-card">
-                <i class="fa-solid fa-blog project-icon"></i>
-                <h3>WordPress Blog Site</h3>
-                <p>Developed a blog site with SEO optimization and robust post management.</p>
-                <a href="#" target="_blank" class="visit-live">Visit Live <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="E-Commerce Website">
+                </div>
+                <div class="project-content">
+                    <h3>E-Commerce Website</h3>
+                    <p>Built a responsive online store with checkout system.</p>
+                    <span class="visit-live">Tech stack </span>: React, Firebase, CSS.
+                    <br>
+
+                    <a href="https://modern-ecommerce-store-three.vercel.app/" target="_blank" class="visit-live">Visit
+                        Live <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
             </div>
+
             <div class="project-card">
-                <i class="fa-solid fa-cart-shopping project-icon"></i>
-                <h3>E-Commerce Website</h3>
-                <p>Built a responsive online store with a checkout system. Tech stack: HTML, CSS, JS, PHP.</p>
-                <a href="#" target="_blank" class="visit-live">Visit Live <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-             <div class="project-card">
-                <i class="fa-solid fa-gear project-icon"></i>
-                <h3>Decision Wheel / Other</h3>
-                <p>A utility tool for making quick, random decisions or a space for your next project.</p>
-                <a href="#" target="_blank" class="visit-live">Visit Live <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="Decision Wheel">
+                </div>
+                <div class="project-content">
+                    <h3>Decision Wheel / Other</h3>
+                    <p>A utility tool for making quick, random decisions or a space for your next project.</p>
+                    <span class="visit-live">Tech stack </span>: React, Firebase, CSS.
+                    <br>
+
+                    <a href="https://my-todos-rosy-phi.vercel.app/" target="_blank" class="visit-live">Visit Live <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="about" class="about">
         <h2 class="section-title">About <span class="neon-text">Me</span></h2>
-        
+
         <div class="about-container">
             <div class="about-text-column">
-                <p>My name is Sudais khan, a passionate Web Developer and Computer Science graduate. I specialize in creating smooth, user-friendly applications that solve real-world problems. I am always eager to explore new opportunities.</p>
-                <p>I don't just write code, I design experiences. I ensure every project is professional and works perfectly on all devices. I have a passion for novel writing, poetry, and exploring new design trends.</p>
+                <p>My name is Sudais khan, a passionate Web Developer and Computer Science graduate. I specialize in
+                    creating smooth, user-friendly applications that solve real-world problems. I am always eager to
+                    explore new opportunities.</p>
+                <p>I don't just write code, I design experiences. I ensure every project is professional and works
+                    perfectly on all devices. I have a passion for novel writing, poetry, and exploring new design
+                    trends.</p>
             </div>
 
             <div class="about-stats-column">
                 <div class="stat-item">
-                    <span class="stat-number">1<span class="plus">+</span></span>
+                    <span class="stat-number">1.5<span class="plus">+</span></span>
                     <span class="stat-label">Year Exp.</span>
                 </div>
                 <div class="stat-item">
@@ -111,28 +169,60 @@
             </div>
         </div>
     </section>
-    
-    
+    <section id="skills" class="skills">
+        <h2 class="section-title">My <span class="neon-text">Skills</span></h2>
+        <div class="skills-center-container">
+            <div class="skills-tags">
+                <span>React</span>
+                <span>Typescript</span>
+                <span>Next</span>
+                <span>HTML5</span>
+                <span>CSS</span>
+                <span>Firebase</span>
+                <span>JavaScript</span>
+                <span>Git</span>
+                <span>BitBucket</span>
+                <span>Jira</span>
 
-    
+                <!-- <span>Bootstrap</span>
+                <span>jQuery</span>
+                <span>PHP</span>
+                <span>Node.js</span>
+                <span>SQL</span>
+                <span>WordPress</span> -->
+                <span>Figma</span>
+                <span>Canva</span>
+                <!-- <span>C++</span> -->
+                <!-- <span>Mircosoft Office</span> -->
+            </div>
+        </div>
+    </section>
+
+
+
 
     <section id="contact" class="contact">
         <h2 class="section-title">Contact <span class="neon-text">Me</span></h2>
         <div class="contact-card">
-            <p class="contact-info-line"><i class="fa-solid fa-envelope"></i> <a href="mailto:sudais8075@gmail.com">sudais8075@gmail.com</a></p>
-            <p class="contact-info-line"><i class="fa-brands fa-whatsapp"></i> +92 315 3633503</p>
+            <p class="contact-info-line"><i class="fa-solid fa-envelope"></i> <a
+                    href="mailto:sudais8075@gmail.com">sudais8075@gmail.com</a></p>
+            <!-- <p class="contact-info-line"><i class="fa-brands fa-whatsapp"></i> +92 315 3633503</p> -->
             <div class="contact-divider"></div>
-            <form action="#" method="POST" class="contact-form">
+            <form id="contact-form" class="contact-form">
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
                 <textarea name="message" placeholder="Message" rows="5" required></textarea>
                 <button type="submit" class="btn-primary">Send Message</button>
             </form>
+
+            <p id="status"></p>
+
         </div>
     </section>
 
-<footer>
-        <p>&copy; 2026 Sudais khan. All rights reserved. | Designed with <i class="fa-solid fa-heart" style="color: var(--accent-purple);"></i> & Code.</p>
+    <footer>
+        <p>&copy; 2026 Sudais khan. All rights reserved. | Designed with <i class="fa-solid fa-heart"
+                style="color: var(--accent-purple);"></i> & Code.</p>
         <div class="footer-links">
             <a href="#home">Home</a>
             <a href="#projects">Projects</a>
@@ -147,17 +237,19 @@
         <a href="#projects"><i class="fa-solid fa-code-fork"></i> Projects</a>
         <a href="#contact"><i class="fa-solid fa-phone"></i> Contact</a>
         <a href="Sudais-Khan-CV.pdf" target="_blank"><i class="fa-solid fa-file"></i> My CV</a>
-        
+
     </nav>
-    
+
+
+
     <script>
-        const titles = ["Frontend Developer" , "Software Developer", "Web Designer" , "Problem Solver"];
+        const titles = ["Frontend Developer", "Software Developer", "Web Designer", "Problem Solver"];
         let titleIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
-        const speed = 120; 
-        const deleteSpeed = 100; 
-        const delay = 700; 
+        const speed = 120;
+        const deleteSpeed = 100;
+        const delay = 700;
 
         function typeTitle() {
             const currentTitle = titles[titleIndex];
@@ -174,19 +266,55 @@
             let typeSpeed = isDeleting ? deleteSpeed : speed;
 
             if (!isDeleting && charIndex === currentTitle.length) {
-                typeSpeed = delay; 
+                typeSpeed = delay;
                 isDeleting = true;
             } else if (isDeleting && charIndex === 0) {
                 isDeleting = false;
-                titleIndex = (titleIndex + 1) % titles.length; 
-                typeSpeed = 500; 
+                titleIndex = (titleIndex + 1) % titles.length;
+                typeSpeed = 500;
             }
 
             setTimeout(typeTitle, typeSpeed);
         }
 
         document.addEventListener('DOMContentLoaded', typeTitle);
+
+        const form = document.getElementById('contact-form');
+        const status = document.getElementById('status');
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const formData = new FormData(form);
+
+            fetch("https://formspree.io/forms/mgovjbyn", {
+                method: "POST",
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+                .then(response => {
+                    if (response.ok) {
+                        status.innerText = "Message sent successfully!";
+                        form.reset();
+                    } else {
+                        response.json().then(data => {
+                            if (data.errors) {
+                                status.innerText = data.errors.map(error => error.message).join(", ");
+                            } else {
+                                status.innerText = "Oops! There was a problem.";
+                            }
+                        })
+                    }
+                })
+                .catch(error => {
+                    status.innerText = "Oops! There was a problem.";
+                });
+        });
+
     </script>
 
 </body>
+
 </html>
