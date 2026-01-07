@@ -361,6 +361,7 @@ nav.desktop-nav a.active::after {
 
 .projects-grid img {
        border-radius: 10px;
+       height: 200px;
   
 }
 
@@ -625,7 +626,14 @@ footer p {
     footer {
         display: none;
     }
-
+    .about-stats-column{
+        display: none;
+    }
+   
+    section {
+    padding: 20px 8%;
+    min-height: 50vh;
+}
     .hero-buttons {
         flex-wrap: wrap;
         justify-content: center;
